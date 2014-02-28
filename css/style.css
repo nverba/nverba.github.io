@@ -147,7 +147,7 @@ pre:after {
 
 #hero h1 {
   display: inline-block;
-  font-size: 26px;
+  font-size: 32px;
   line-height: 1;
   color: #dd1b16;
 }
@@ -241,12 +241,6 @@ pre:after {
     line-height: 1;
     margin-top: 15px;
   }
-
-  #social a {
-    padding: 32px;
-  }
-
-
 }
 
 /* desktop-ish*/
@@ -276,11 +270,6 @@ pre:after {
     line-height: 1;
     margin-top: 15px;
   }
-
-  #social a {
-    padding: 40px;
-  }
-
 
   h1,
   h2,
