@@ -128,7 +128,7 @@ a.twitter {
   background: #eee;
   line-height: 1.2;
   color: #543729;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 #hero .wrap {
@@ -242,7 +242,7 @@ a.twitter {
 @media only screen and (min-width: 920px) {
 
   #hero {
-    padding: 40px 0 40px;
+    padding: 40px 0;
   }
 
   #hero .wrap {
