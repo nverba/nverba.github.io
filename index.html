@@ -1,70 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="nverba.github.io : Hi, I'm Mike. I'm currently learning Ruby, JavaScript, Python, Data Science, UX design and SAAS via various MOOCs, books and online resources." />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>nverba.github.io</title>
+    <meta charset="utf-8">
+    <title>nverba</title>
+    <meta name="description" content="I do Ruby, Node and AngularJS">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="lib/highlight/styles/github.css">
   </head>
-
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nverba">View on GitHub</a>
-
-          <h1 id="project_title">nverba.github.io</h1>
-          <h2 id="project_tagline">Hi, I'm Mike. I'm currently learning Ruby, JavaScript, Python, Data Science, UX design and SAAS via various MOOCs, books and online resources.</h2>
-
-        </header>
+    <div id="hero">
+      <div class="wrap">
+        <div class="brand">
+          <h1>nverba</h1>
+        </div>
+        <h3 class="tagline">I do Ruby, Node and AngularJS</h3>
+        <span id="github"><a href="https://github.com/nverba" target="_blank" class="button github-button">My GitHub</a></span>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="mooks-taken" class="anchor" href="#mooks-taken"><span class="octicon octicon-link"></span></a>MOOKs Taken</h3>
+    <div id="content">
+      <div class="wrap">
+        <div id="marked">
 
-<hr><ul>
-<li>
-<strong>Introduction to Data Science</strong> (University of Washington <em>via</em> Coursera)</li>
-<li>
-<strong>Human-Computer Interaction</strong> (Stanford University <em>via</em> Coursera)</li>
-<li>
-<strong>How to Build a Startup</strong> (Steve Blank, <em>via</em> Udacity)</li>
-<li>
-<strong>Learn to Program: The Fundamentals</strong> (Introduction to Python, University of Toronto <em>via</em> Coursera)</li>
-<li>
-<strong>Software Engineering for SaaS</strong> (University of California, Berkeley <em>via</em> Coursera)</li>
-</ul><h3>
-<a name="reading-list" class="anchor" href="#reading-list"><span class="octicon octicon-link"></span></a>Reading list</h3>
+<!-- MARKDOWN CONTENT /////////////////////////////////////////////////////////////////////////////////// -->
 
-<hr><ul>
-<li>
-<strong>Eloquent JavaScript</strong>, <em>by</em> Marijn Haverbeke</li>
-<li>
-<strong>Metaprogramming Ruby</strong>, <em>by</em> Paolo Perrotta</li>
-<li>
-<strong>Engineering Long Lasting Software</strong>, <em>by</em> Armando Fox <em>&amp;</em> David Patterson</li>
-<li>
-<strong>Learn to program</strong> <em>by</em> Chris Pine</li>
-</ul>
-      </section>
+## Code Examples
+
+- ####[angular-draggable-list](http://nverba.github.io/angular-draggable-list)
+An __AngularJS__ directive for draggable, sortable lists using the __HTML5 Drag and Drop API.__
+
+- ####[angular-pikaday](file:///home/nverba/code/github/angular-pikaday/index.html)
+An __AngularJS__ directive wraper for the __Pikaday datepicker.__
+
+
+
+## MOOKs Completed
+
+- __Introduction to Data Science__ (University of Washington via Coursera)
+
+- __Human-Computer Interaction__ (Stanford University via Coursera)
+
+- __How to Build a Startup__ (Steve Blank, via Udacity)
+
+- __Learn to Program: The Fundamentals__ (Introduction to Python, University of Toronto via Coursera)
+
+- __Software Engineering for SaaS__ (University of California, Berkeley via Coursera)
+
+## Reading
+
+- __JavaScript Allongé__ _by_ Reginald Braithwaite
+
+- __JavaScript: The Good Parts__ _by_ Douglas Crockford
+
+- __Eloquent JavaScript__ _by_ Marijn Haverbeke
+
+- __Metaprogramming Ruby__ _by_ Paolo Perrotta
+
+- __Engineering Long Lasting Software__ _by_ Armando Fox _&_ David Patterson
+
+- __Learn to program__ _by_ Chris Pine
+
+<!-- CLOSE MARKDOWN CONTENT ///////////////////////////////////////////////////////////////////////////// -->
+
+        </div>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div id="footer">
+      <div class="wrap">
+
+      </div>
     </div>
 
-    
+    <script src="lib/marked.js"></script>
+    <script src="lib/highlight/highlight.pack.js"></script>
+
+    <script>
+        var mark = document.getElementById("marked");
+        mark.innerHTML = marked(mark.innerHTML);
+        hljs.initHighlightingOnLoad();
+    </script>
 
   </body>
 </html>
