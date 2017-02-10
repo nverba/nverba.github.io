@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:400,700);
+html{
+  font:18px/1.5 'Fira Sans', sans-serif;
+  color:rgb(55,71,79);
+}
+
+body{
+  background:#fefefe;
+  font:1rem;
+  margin:2rem 1rem;
+  font-variant-ligatures: common-ligatures;
+}
+
+pre,code{
+  font-family: "Fira Mono", monospace;
+  font-size:0.8rem;
+  color:#222;
+  border-radius:2px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(33,150,243);
+}
+code{
+  background:rgb(236,239,241);
+}
+pre{ 
+  background:rgb(207,216,220);
+  padding:4px 2px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color:rgb(84,110,122);
+  font-weight:400;
+  font-variant-ligatures: no-additional-ligatures;
+}
+
+h1,h2{
+    font-weight:700;
+    letter-spacing:0.125rem;
+    text-transform: uppercase;
+}
+h3,h4,h5,h6{
+  border-bottom:1px solid rgba(84,110,122,0.25);
+}
