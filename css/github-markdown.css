@@ -689,3 +689,25 @@ body .task-list-item input {
 body hr {
   border-bottom-color: #eee;
 }
+
+.vscode-dark code {
+	background-color: #f7f7f7 !important;
+}
+
+.vscode-dark code > div {
+	background-color: #f7f7f7;
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark blockquote {
+	background: #fefefe;
+}
