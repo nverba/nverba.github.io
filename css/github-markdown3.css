@@ -690,8 +690,14 @@ body hr {
   border-bottom-color: #eee;
 }
 
+
+.vscode-dark {
+	color: rgb(30, 30, 30);
+}
+
 .vscode-dark code {
 	background-color: #f7f7f7 !important;
+	color: #333;
 }
 
 .vscode-dark code > div {
@@ -711,3 +717,4 @@ body hr {
 .vscode-dark blockquote {
 	background: #fefefe;
 }
+
